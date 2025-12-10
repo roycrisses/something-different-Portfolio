@@ -152,7 +152,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 w-full z-50 mix-blend-difference text-white py-6">
       <div className="container mx-auto px-6 flex justify-between items-center">
         <a href="#" className="text-xl font-bold tracking-widest uppercase hover:text-sapphire transition-colors cursor-pointer">
-          Alex S.
+          Krish
         </a>
 
         {/* Desktop Menu */}
@@ -221,7 +221,7 @@ const Hero = () => {
             <div className="md:col-span-5 text-lg text-text-muted leading-relaxed">
                 <Reveal delay={400}>
                     <p>
-                        Specialized in building digital products that blend brutalist aesthetics with refined user interactions. currently based in <span className="text-white">New York</span>.
+                        Specialized in building digital products that blend brutalist aesthetics with refined user interactions. currently based in <span className="text-white">Nepal</span>.
                     </p>
                 </Reveal>
             </div>
@@ -418,7 +418,7 @@ const Footer = () => {
         <Reveal>
             <div className="mb-20">
                 <p className="text-sapphire font-mono text-sm uppercase tracking-widest mb-4">Have an idea?</p>
-                <a href="mailto:hello@alexsterling.com" className="block text-[10vw] font-bold leading-none tracking-tighter hover:text-sapphire transition-colors duration-300">
+                <a href="mailto:hello@krishna.com" className="block text-[10vw] font-bold leading-none tracking-tighter hover:text-sapphire transition-colors duration-300">
                     LET'S TALK
                 </a>
             </div>
@@ -426,7 +426,7 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 border-t border-border pt-12">
             <div className="md:col-span-2">
-                <h4 className="text-2xl font-bold mb-4">Alex Sterling</h4>
+                <h4 className="text-2xl font-bold mb-4">Krishna Karki</h4>
                 <p className="text-text-muted max-w-xs">
                     Senior Digital Designer crafting experiences for the next generation of web.
                 </p>
@@ -451,8 +451,8 @@ const Footer = () => {
         </div>
         
         <div className="mt-20 flex justify-between items-end text-xs text-text-muted font-mono uppercase">
-            <span>© 2024 Alex Sterling</span>
-            <span>New York, USA</span>
+            <span>© 2025 Krishna Karki</span>
+            <span>Nepal</span>
             <span>Local Time: {new Date().toLocaleTimeString('en-US', {hour: '2-digit', minute:'2-digit'})}</span>
         </div>
       </div>
